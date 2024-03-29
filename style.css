@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.layout__content {
+    display: flex;
+}
+
+.layout__header {
+    background: rgb(238, 65, 7);
+    padding: 10px;
+}
+
+.layout__footer {
+    background: green;
+    padding: 10px;
+}
+
+.layout__main {
+    background: rgb(62, 49, 146); 
+    padding: 10px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel__content {
+    padding: 10px;
+}
+
+.panel--first {
+    background: yellow; 
+}
+
+.panel--second {
+    background: pink; 
+}
